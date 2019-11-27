@@ -41,6 +41,7 @@ var lastName = prompt('What is his last Name?');
 console.log(firstName + ' ' + lastName);
 
 */
+/*
 var year, yearJohn, yearMark;
 
 now = 2018;
@@ -64,3 +65,21 @@ console.log(typeof ageJohn);
 console.log(typeof 'Mark is older that John');
 var x;
 console.log(typeof x);
+*/
+
+var firstName = 'John';
+var civilStatus = 'single';
+
+if (civilStatus === 'married'){
+    console.log(firstName + ' is married');
+} else {
+    console.log(firstName + ' will hopefully marry soon :) ')
+}
+
+var isMarried = true;
+if (isMarried){
+    console.log(firstName + ' is married');
+} else {
+    console.log(firstName + ' will hopefully marry soon :) ');
+}
+ 
