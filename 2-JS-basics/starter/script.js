@@ -151,4 +151,164 @@ console.log(BMIMark, BMIJohn);
 var markHigherBMI = BMIMark > BMIJohn;
 console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
 */
+/*
+var firstName = 'John';
+var civilStatus = 'single';
+
+if(civilStatus === 'married'){
+    console.log(firstName + ' is married');
+    } else{
+        console.log(firstName + ' will hopefully marry soon :)');
+    }
+var isMarried = true;
+if(isMarried){
+    console.log(firstName + ' is married');
+    } else{
+        console.log(firstName + ' will hopefully marry soon :)');
+    }
+
+var massMark = 78; // kg
+var heightMark = 1.69; // meters
+
+var massJohn = 92;
+var heightJohn = 1.95;
+
+var BMIMark = massMark / (heightMark * heightMark);
+var BMIJohn = massJohn / (heightJohn * heightJohn);
+
+if (BMIMark > BMIJohn){
+   console.log('Mark\' BMI is higher than John\'s.'); 
+}else{
+    console.log('John\' BMI is higher than Marks\'s');
+}
+*/
+//var markHigherBMI = BMIMark > BMIJohn;
+//console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
+
+/*
+var firstName = 'John';
+var age = 20;
+
+if (age < 13){
+    console.log(firstName + ' is a boy.');
+} else if (age >= 13 && age < 20){
+    console.log(firstName + ' is a teenager.');
+           }
+else if (age >= 20 && age <30){
+    console.log(firstName + ' is young man.')
+}
+else {
+               console.log(firstName + ' is a man.');
+           }
+  */
+
+/*
+var firstName = 'John';
+var age = 14;
+
+age >= 18 ? console.log (firstName + ' drinks beer.'):console.log(firstName + ' drinks juice.');
+
+var drink = age >= 18 ? 'beer' : 'juice';
+console.log(drink);
+
+var job = 'instructor';
+switch(job){
+    case 'teacher':
+    case 'instructor':
+        console.log(firstName + ' teacher kids how to code.');
+        break;
+    case 'driver':
+        console.log(firstName + ' driver an uber in lisbon.');
+        break;
+    case 'designer':
+        console.log(firstName + ' design beautiful website');
+        break;
+    default:
+        console.log(firstName + ' does something else.')        
+}
+
+age = 50
+switch (true){
+    case age < 13:
+        console.log(firstName + ' is a boy');
+        break;
+    case age >=13 && age < 20:
+        console.log(firstName + ' is a teenager.');
+        break;
+    case age >= 20 && age <30:
+        console.log(firstName + ' is young man.');
+        break;
+    default:
+        console.log(firstName + ' is a man.');
+}
+
+*/
+
+/*
+var height;
+
+height = 23;
+
+if (height || height === 0){
+    console.log('Variable is defined');
+}else{
+    console.log('Variable has NOT been define');
+}
+
+if (height == '23'){
+    console.log('The == operator does type coercaion!');
+}
+*/
+
+var johnScore1,johnScore2,johnScore3,johnAverage;
+
+johnScore1 = 89;
+johnScore2 = 120;
+johnScore3 = 103;
+
+johnAverage = (johnScore1 + johnScore2 + johnScore3)/3;
+
+console.log(johnAverage);
+
+var mikeScore1,mikeScore2,mikeScore3,mikeAverage;
+
+mikeScore1 = 116;
+mikeScore2 = 94;
+mikeScore3 = 123;
+
+mikeAverage = (mikeScore1+mikeScore2+mikeScore3)/3;
+console.log(mikeAverage);
+
+var maryScore1,maryScore2,maryScore3,maryAverage;
+
+maryScore1 = 97;
+maryScore2 = 134;
+maryScore3 = 105;
+
+maryAverage = (maryScore1+maryScore2+maryScore3)/3;
+console.log(maryAverage);
+
+
+if (johnAverage > mikeAverage && johnAverage >maryAverage){
+    console.log('Team John is the winner');}
+else if (mikeAverage > johnAverage && mikeAverage > maryAverage){
+    console.log('Team Mike is the winner');}
+else if (maryAverage > johnAverage && maryAverage > mikeAverage){
+    console.log('Team Mary is the winner');}
+    else{
+        console.log('Team John, Mike and Mary draw');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
